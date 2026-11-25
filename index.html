@@ -1,0 +1,367 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio professionale di Mbida Moutchie Aime Roland, candidato junior nel settore informatico.">
+    <meta name="author" content="Mbida Moutchie Aime Roland">
+
+    <title>Mbida Moutchie | Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<header class="header">
+    <nav class="navbar container">
+        <a href="#home" class="logo">AIME<span>.</span></a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Apri il menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Profilo</a></li>
+            <li><a href="#skills">Competenze</a></li>
+            <li><a href="#projects">Progetti</a></li>
+            <li><a href="#experience">Esperienza</a></li>
+            <li><a href="#contact" class="nav-contact">Contatti</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <!-- HERO -->
+    <section class="hero container" id="home">
+        <div class="hero-content">
+            <span class="eyebrow">PORTFOLIO PROFESSIONALE</span>
+
+            <h1>
+                Ciao, sono<br>
+                <span>Mbida Moutchie.</span>
+            </h1>
+
+            <h2>Junior IT Candidate & Web Development Enthusiast</h2>
+
+            <p>
+                Interessato allo sviluppo web, alle tecnologie digitali
+                e alla creazione di soluzioni informatiche.
+                Motivato a crescere professionalmente e ad acquisire
+                nuove esperienze lavorative.
+            </p>
+
+            <div class="hero-actions">
+                <a href="#projects" class="btn btn-primary">
+                    Esplora i progetti
+                </a>
+
+                <a href="#contact" class="btn btn-outline">
+                    Contattami
+                </a>
+            </div>
+
+            <div class="availability">
+                <span class="status-dot"></span>
+                Disponibile per opportunità professionali in Italia
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="visual-card">
+                <span class="visual-label">IL MIO PROFILO</span>
+                <div class="code-icon">&lt;/&gt;</div>
+                <h3>Technology<br>& Innovation</h3>
+                <p>Learning. Building. Improving.</p>
+                <div class="visual-line"></div>
+                <span class="visual-footer">CAMEROON · ITALY</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+   
+<section class="section container" id="projects">
+    <div class="section-heading">
+        <span class="eyebrow">03 / PROGETTI</span>
+        <h2>Il mio progetto principale</h2>
+        <p>Un progetto personale di sviluppo web e protezione dei dati.</p>
+    </div>
+
+    <article class="project-card">
+        <div class="project-info">
+            <span class="project-tag">PROGETTO PERSONALE</span>
+            <h3>MY QR VAULT</h3>
+
+            <p>
+                MY QR VAULT è un prototipo di cassaforte digitale
+                personale che permette di organizzare note,
+                documenti e codici QR in un unico ambiente.
+            </p>
+
+            <p>
+                L'applicazione utilizza la crittografia AES-GCM
+                a 256 bit e PBKDF2 con SHA-256 per la derivazione
+                delle chiavi. I dati della versione web vengono
+                conservati localmente nel browser.
+            </p>
+
+            <div class="tech-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Web Crypto API</span>
+            </div>
+
+            <span class="project-status">Prototipo funzionante</span>
+        </div>
+
+        <div class="project-gallery">
+            <figure>
+                <img src="image/image.png"
+                     alt="Schermata di accesso MY QR VAULT">
+                <figcaption>Accesso al coffre-fort digitale</figcaption>
+            </figure>
+
+            <figure>
+                <img src="image/image2.png"
+                     alt="Configurazione del coffre-fort">
+                <figcaption>Creazione e configurazione</figcaption>
+            </figure>
+
+            <figure>
+                <img src="image/image3.png"
+                     alt="Dashboard principale MY QR VAULT">
+                <figcaption>Dashboard e gestione degli spazi</figcaption>
+            </figure>
+        </div>
+    </article>
+</section>
+
+
+    <!-- SKILLS -->
+    <section class="section section-dark" id="skills">
+        <div class="container">
+            <div class="section-heading">
+                <span class="eyebrow">02 / TECNOLOGIE</span>
+                <h2>Competenze tecniche</h2>
+                <p>Strumenti e tecnologie che conosco e continuo a sviluppare.</p>
+            </div>
+
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <span class="skill-number">01</span>
+                    <h3>HTML</h3>
+                    <p>Struttura e organizzazione delle pagine web.</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-number">02</span>
+                    <h3>CSS</h3>
+                    <p>Stilizzazione, layout e design responsive.</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-number">03</span>
+                    <h3>JavaScript</h3>
+                    <p>Logica applicativa e interattività web.</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-number">04</span>
+                    <h3>Flutter</h3>
+                    <p>Conoscenze iniziali nello sviluppo mobile.</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-number">05</span>
+                    <h3>Dart</h3>
+                    <p>Conoscenze iniziali del linguaggio.</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-number">06</span>
+                    <h3>Web Security</h3>
+                    <p>Esperienza pratica con API crittografiche del browser.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section container" id="projects">
+        <div class="section-heading">
+            <span class="eyebrow">03 / PORTFOLIO</span>
+            <h2>Progetti personali</h2>
+        </div>
+
+        <article class="project-card">
+            <div class="project-preview">
+                <div class="mock-window">
+                    <div class="mock-topbar">
+                        <span></span><span></span><span></span>
+                        <small>MY QR VAULT</small>
+                    </div>
+
+                    <div class="mock-content">
+                        <div class="mock-title">MY QR VAULT</div>
+                        <p>Il tuo spazio digitale personale</p>
+
+                        <div class="mock-grid">
+                            <div>▤<small>Documenti</small></div>
+                            <div>▧<small>Codici QR</small></div>
+                            <div>▤<small>Note</small></div>
+                        </div>
+
+                        <div class="mock-lock">🔒</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-info">
+                <span class="project-tag">PROGETTO PERSONALE</span>
+
+
+                <h3>MY QR VAULT</h3>
+
+                <p>
+                    MY QR VAULT è un prototipo di cassaforte digitale
+                    personale progettato per organizzare note,
+                    documenti e codici QR in un unico ambiente.
+                </p>
+
+                <p>
+                    Il progetto utilizza la crittografia AES-GCM a 256 bit
+                    e PBKDF2 con SHA-256 per la derivazione delle chiavi.
+                    I dati del prototipo web vengono conservati
+                    localmente nel browser.
+                </p>
+
+                <div class="tech-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>Web Crypto API</span>
+                </div>
+
+                <span class="project-status">
+                    Prototipo personale
+                </span>
+            </div>
+            <div class="project-features">
+    <h4>Funzionalità principali</h4>
+    <ul>
+        <li>Accesso protetto da password</li>
+        <li>Creazione e gestione delle note</li>
+        <li>Gestione dei documenti personali</li>
+        <li>Creazione e gestione dei codici QR</li>
+        <li>Impostazioni di sicurezza</li>
+        <li>Archiviazione locale dei dati</li>
+        <li>Crittografia AES-GCM 256</li>
+        <li>Derivazione delle chiavi PBKDF2-SHA-256</li>
+    </ul>
+</div>
+        </article>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section section-dark" id="experience">
+        <div class="container">
+            <div class="section-heading">
+                <span class="eyebrow">04 / PERCORSO</span>
+                <h2>Formazione ed esperienza</h2>
+            </div>
+
+            <div class="timeline">
+                <article class="timeline-item">
+                    <span class="timeline-label">FORMAZIONE</span>
+                    <h3>Informatica – Ingegneria del Software</h3>
+                    <p>Primo anno universitario – percorso non completato.</p>
+                </article>
+
+                <article class="timeline-item">
+                    <span class="timeline-label">ISTRUZIONE</span>
+                    <h3>Baccalauréat</h3>
+                    <p>Diploma di scuola secondaria – Camerun, 2024.</p>
+                </article>
+
+                <article class="timeline-item">
+                    <span class="timeline-label">ESPERIENZA</span>
+                    <h3>3D Service</h3>
+                    <p>
+                        Breve esperienza di supporto informatico,
+                        utilizzo di software e strumenti informatici,
+                        oltre ad attività pratiche.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- LANGUAGES AND OTHER WORK -->
+    <section class="section container" id="languages">
+        <div class="section-heading">
+            <span class="eyebrow">05 / ALTRE INFORMAZIONI</span>
+            <h2>Lingue e disponibilità</h2>
+        </div>
+
+        <div class="two-column">
+            <div class="info-panel">
+                <h3>Lingue</h3>
+                <p><strong>Francese</strong> — Fluente</p>
+                <p><strong>Italiano</strong> — Intermedio</p>
+                <p><strong>Inglese</strong> — Principiante</p>
+            </div>
+
+            <div class="info-panel">
+                <h3>Altri settori di interesse</h3>
+                <p>Produzione e industria</p>
+                <p>Magazzino e logistica</p>
+                <p>Hotel e ristorazione</p>
+                <p>Servizi e attività operative</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+        <div class="container contact-content">
+            <span class="eyebrow">06 / CONTATTI</span>
+            <h2>Parliamo di opportunità.</h2>
+
+            <p>
+                Sono disponibile a valutare opportunità professionali
+                e nuove esperienze lavorative in Italia.
+            </p>
+
+            <a href="mailto:aimemoutchie@gmail.com"
+               class="btn btn-primary">
+                aimemoutchie@gmail.com
+            </a>
+
+            <p class="phone">Telefono: +237 689 282 282</p>
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <p>© <span id="currentYear"></span> Mbida Moutchie Aime Roland.</p>
+        <p>Portfolio professionale.</p>
+    </div>
+</footer>
+
+</body>
+</html>
